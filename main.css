@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  height: auto;
+  position: relative;
+  margin-left: 0;
+  background-image: url(./images/pattern-curve.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-position-x: 0;
+}
+#imgdiv {
+  background-image: url(./images/pattern-bg.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 3rem;
+  margin-left: 23rem;
+}
+#img {
+  position: relative;
+  box-shadow: 1px 1px 20px gray;
+}
+#paragraph {
+  position: absolute;
+  background-image: url(./images/pattern-quotes.svg);
+  background-repeat: no-repeat;
+  background-position-x: 200px;
+  padding: 3rem;
+  width: 95%;
+  z-index: 5;
+}
+#paragraph p {
+  font-weight: 300;
+}
+#buttons {
+  height: 80px;
+  width: 150px;
+  display: flex;
+  margin-top: 500px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-right: 8rem;
+  border-radius: 50px;
+  z-index: 10;
+}
+
+#prev {
+  height: 50px;
+  padding-right: 15px;
+  cursor: pointer;
+}
+#next {
+  cursor: pointer;
+  height: 50px;
+  padding-left: 15px;
+}
+.hide {
+  display: none;
+}
